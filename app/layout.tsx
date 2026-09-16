@@ -5,6 +5,11 @@ export const metadata: Metadata = {
   title: 'English AI Tutor',
   description: 'Tutor de inglês por voz com IA local e prática diária.',
   manifest: '/manifest.webmanifest',
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
   appleWebApp: { capable: true, title: 'English AI Tutor', statusBarStyle: 'black-translucent' },
 };
 
